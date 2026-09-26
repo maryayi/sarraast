@@ -1,0 +1,22 @@
+{
+  "name": "sarraast",
+  "version": "1.0.0",
+  "private": true,
+  "description": "آدرس راسته کسبه کشور",
+  "homepage": "https://sarraast.ir",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maryayi/sarraast.git"
+  },
+  "license": "MIT",
+  "author": "Mahdi Aryayi",
+  "scripts": {
+    "vendor": "node scripts/copy-vendor.js",
+    "postinstall": "npm run vendor"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-rtl": "github:morteza/bootstrap-rtl#v3.4.0",
+    "jquery": "^3.2.1"
+  }
+}
